@@ -18,4 +18,4 @@ jobs:
       with:
         context: .
         push: true
-        tags: chrizzz5/prueba-gha:latest, chrizzz5/prueba-gha:${{ github.sha }}
+        tags: chrizzz5/prueba-gha:${{ github.sha }}
